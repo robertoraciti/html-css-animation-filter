@@ -116,6 +116,23 @@
 
 .ex-11-icon {
   font-size: 60px;
+  transition: 1s;
+}
+
+.ex-11-icon:hover {
+  animation-name: Turn-3-4;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes Turn-3-4 {
+  from {
+    font-size: 60px;
+  }
+
+  to {
+    transform: rotate(300deg);
+  }
 }
 
 .ex-12-button,
