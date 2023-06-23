@@ -69,6 +69,9 @@
 .ex-7-img {
   transition: 1s;
 }
+.ex-8-img {
+  transition: 1s;
+}
 
 .ex-6-img:hover {
   filter: grayscale(1);
@@ -76,6 +79,11 @@
 
 .ex-7-img:hover {
   filter: grayscale(1);
+}
+
+.ex-8-img:hover {
+  filter: grayscale(0.5);
+  border-radius: 10px;
 }
 
 .ex-9-img {
